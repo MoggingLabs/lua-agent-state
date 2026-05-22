@@ -15,9 +15,9 @@ rsync -a --delete --exclude '.tick.lock' --exclude 'output/' "$DATA/cron/" "$REP
 [ -d "$DATA/plans" ] && rsync -a --delete "$DATA/plans/" "$REPO/plans/"
 
 # 2. Re-encrypt secrets only when they actually change (gpg output is non-deterministic)
-HASH=$(find "$DATA/.env" "$DATA/auth.json" "$DATA/mcp-tokens" "$DATA/whatsapp/session" "$DATA/google_token.json" "$DATA/.google_workspace_mcp" -type f -exec sha256sum {} \; 2>/dev/null | sort | sha256sum | awk '{print $1}')
+HASH=$(find "$DATA/.env" "$DATA/auth.json" "$DATA/mcp-tokens" "$DATA/whatsapp/session" "$DATA/google_token.json" "$DATA/.google_workspace_mcp/credentials" -type f -exec sha256sum {} \; 2>/dev/null | sort | sha256sum | awk '{print $1}')
 if [ "$HASH" != "$(cat "$REPO/.secrets.hash" 2>/dev/null)" ]; then
-  tar -C "$DATA" -czf - .env auth.json mcp-tokens whatsapp/session google_token.json .google_workspace_mcp 2>/dev/null \
+  tar -C "$DATA" -czf - .env auth.json mcp-tokens whatsapp/session google_token.json .google_workspace_mcp/credentials 2>/dev/null \
     | gpg --batch --yes --symmetric --cipher-algo AES256 --passphrase-file "$PASS" -o "$REPO/secrets.tar.gz.gpg"
   echo "$HASH" > "$REPO/.secrets.hash"
 fi
