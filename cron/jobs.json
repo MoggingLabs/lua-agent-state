@@ -3,9 +3,11 @@
     {
       "id": "6fd5ebae302b",
       "name": "morning-briefing",
-      "prompt": "It's morning. Send Pedro his morning briefing in your normal witty, brief WhatsApp style. Include: (1) today's weather through the day for Porto and Vila Nova de Famalicao (look it up), (2) a practical recap of the work Pedro needs to do today using memory/to-dos plus any injected GitHub briefing context as evidence of open loops/recent repo work, (3) ONE short self-care nudge, rotating between hydration/meals, movement, screen breaks/posture, and sleep. Keep it tight and skimmable. Do not dump raw GitHub events; synthesize them into useful next actions. If you already gave him a briefing on request earlier today, just send a quick good-morning instead.",
-      "skills": [],
-      "skill": null,
+      "prompt": "It's morning. Send Pedro his 07:00 morning briefing in Lua's normal witty, brief WhatsApp style.\n\nMust include, in this order:\n1) Weather through the day for Porto and Vila Nova de Famalicao \u2014 look it up live.\n2) Today's practical work plan.\n3) GitHub/repo analysis: use the injected GitHub repo-analysis context to identify repos actively being worked on, current repo status, blockers, open PRs/issues/failed CI, and recommended next steps. Synthesize by repo; do not dump raw events. Prioritize high-priority repos and anything with open PRs, failed CI, review-required work, launch blockers, or recent pushes.\n4) Pedro's to-do list / open loops.\n5) One short self-care nudge.\n\nRules:\n- Be concise and mobile-friendly, but do not omit repo analysis when GitHub context exists.\n- Separate \u201cneeds Pedro decision/approval\u201d from \u201cLua can do next when approved.\u201d\n- Do not start GitHub work, create issues, merge, deploy, or rewrite history; this briefing is read-only planning.\n- If no repo activity is found, say so briefly and give a non-GitHub daily plan.",
+      "skills": [
+        "pedro-coding-agent-workflow"
+      ],
+      "skill": "pedro-coding-agent-workflow",
       "model": null,
       "provider": null,
       "base_url": null,
@@ -41,9 +43,11 @@
     {
       "id": "5ac3660fb9a4",
       "name": "eod-recap",
-      "prompt": "It's the end of the day. Send Pedro his recap in your normal brief WhatsApp style. Include: (1) what got done today, using memory/to-dos and any injected GitHub briefing context as evidence, (2) what is still pending and should roll into tomorrow, (3) tomorrow's preview if known, (4) one short reflection/win prompt. Keep it concise and useful. Do not dump raw GitHub events; synthesize them into an actual done/pending recap. If you already gave him an end-of-day recap on request earlier today, send a short sign-off instead.",
-      "skills": [],
-      "skill": null,
+      "prompt": "It's 19:00. Send Pedro his end-of-day recap in Lua's normal brief WhatsApp style.\n\nMust include, in this order:\n1) What got done today \u2014 synthesize from to-dos/memory/context and injected GitHub repo-analysis context.\n2) GitHub/repo recap: analyze repos actively worked on today/recently. For each relevant repo, summarize progress, open PRs/issues, failed CI/deploy signals, blockers, and the next concrete step. Do not dump raw events.\n3) What is still pending and should roll into tomorrow.\n4) Tomorrow's preview / first suggested priorities.\n5) One short reflection or win prompt.\n\nRules:\n- Be concise and mobile-friendly, but do not omit repo analysis when GitHub context exists.\n- Clearly mark items that need Pedro approval/decision: merge, deploy, live verification, history rewrite, or production/secret work.\n- Do not start GitHub work, create issues, merge, deploy, or rewrite history; this recap is read-only planning.\n- If no repo activity is found, say so briefly and focus on non-GitHub pending items.",
+      "skills": [
+        "pedro-coding-agent-workflow"
+      ],
+      "skill": "pedro-coding-agent-workflow",
       "model": null,
       "provider": null,
       "base_url": null,
@@ -115,5 +119,5 @@
       "profile": null
     }
   ],
-  "updated_at": "2026-05-22T19:00:49.868087+01:00"
+  "updated_at": "2026-05-22T21:34:52.262639+01:00"
 }
