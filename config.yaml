@@ -519,6 +519,26 @@ image_gen:
   openai-codex:
     model: gpt-image-2-high
 mcp_servers:
+  google_workspace:
+    command: uvx
+    args:
+    - "--from"
+    - "workspace-mcp"
+    - "workspace-mcp"
+    - "--single-user"
+    - "--transport"
+    - "stdio"
+    - "--tools"
+    - "gmail"
+    - "calendar"
+    - "--permissions"
+    - "gmail:readonly"
+    - "calendar:readonly"
+    env:
+      USER_GOOGLE_EMAIL: "pedrovelosofernandes031@gmail.com"
+      WORKSPACE_MCP_CREDENTIALS_DIR: "/opt/data/.google_workspace_mcp/credentials"
+      HOME: "/opt/data"
+    enabled: true
   supabase:
     command: npx
     args:
