@@ -530,7 +530,7 @@ mcp_servers:
     - "stdio"
     - "--permissions"
     - "gmail:readonly"
-    - "calendar:readonly"
+    - "calendar:full"
     env:
       USER_GOOGLE_EMAIL: "pedrovelosofernandes031@gmail.com"
       WORKSPACE_MCP_CREDENTIALS_DIR: "/opt/data/.google_workspace_mcp/credentials"
