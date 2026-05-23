@@ -11,7 +11,7 @@ _(Keep this current — add when Pedro mentions a task, check it off when done.)
 §
 Hermes/Lua WhatsApp voice transcription is configured with local faster-whisper STT using the small model.
 §
-GitHub/software rules: start only with Pedro approval; use feature branches/PRs + issues/milestones for meaningful work; every coding task needs review; commits authored only as Pedro with no AI/tool/co-author trailers; only Lua may merge, with explicit approval. Pedro approved a nightly autonomous private-repo MVP builder at 00:00→09:00 with market scan/SWOT, bounded by no spend/deploy/publication/messages/secrets.
+GitHub/software rules: start only with Pedro approval; use feature branches/PRs + issues/milestones/dependencies for meaningful work; every coding task needs review; commits authored only as Pedro with no AI/tool/co-author trailers; only Lua may merge, with explicit approval. Pedro approved a nightly autonomous private-repo MVP builder at 00:00→09:00 with market scan/SWOT, full GitHub planning structure, decision docs, and no spend/deploy/publication/messages/secrets.
 §
 Pedro’s ops preferences: Google Sheet is the human dashboard; Hermes Kanban is the execution board; task statuses are backlog/next/in progress/blocked/review/done with P0-P3 priorities. GitHub summaries appear only in the 07:00 briefing, 19:00 recap, or on explicit request. Unread Gmail summaries should be a separate message from briefings; do not proactively turn emails into tasks. Calendar events require approval; draft email replies but never send without approval. Voice notes should be executed directly and only converted into tasks if explicitly asked. Pedro does not want TTS/voice replies.
 §
