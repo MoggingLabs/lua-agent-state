@@ -529,7 +529,7 @@ mcp_servers:
     - "--transport"
     - "stdio"
     - "--permissions"
-    - "gmail:readonly"
+    - "gmail:drafts"
     - "calendar:full"
     env:
       USER_GOOGLE_EMAIL: "pedrovelosofernandes031@gmail.com"

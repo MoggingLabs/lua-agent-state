@@ -3,7 +3,7 @@
     {
       "id": "6fd5ebae302b",
       "name": "morning-briefing",
-      "prompt": "It's morning. Send Pedro his 07:00 morning briefing in Lua's normal witty, brief WhatsApp style.\n\nMust include, in this order:\n1) Weather through the day for Porto and Vila Nova de Famalicao \u2014 look it up live.\n2) Today's practical work plan.\n3) GitHub/repo analysis: use the injected GitHub repo-analysis context to identify repos actively being worked on, current repo status, blockers, open PRs/issues/failed CI, and recommended next steps. Synthesize by repo; do not dump raw events. Prioritize high-priority repos and anything with open PRs, failed CI, review-required work, launch blockers, or recent pushes.\n4) Pedro's to-do list / open loops.\n5) One short self-care nudge.\n\nRules:\n- Be concise and mobile-friendly, but do not omit repo analysis when GitHub context exists.\n- Separate \u201cneeds Pedro decision/approval\u201d from \u201cLua can do next when approved.\u201d\n- Do not start GitHub work, create issues, merge, deploy, or rewrite history; this briefing is read-only planning.\n- If no repo activity is found, say so briefly and give a non-GitHub daily plan.",
+      "prompt": "It is morning. Send Pedro his morning briefing in your normal witty, brief WhatsApp style: (1) today weather through the day for Porto and Vila Nova de Famalicao (look it up); (2) today schedule from his Google Calendar - use your calendar tools to list today events with times, or say nothing scheduled if empty; (3) his to-do list for today from memory; (4) ONE short self-care nudge, rotating between hydration/meals, movement, screen breaks/posture, and sleep. Keep it tight and skimmable. If you already gave him a briefing on request earlier today, just send a quick good-morning instead.",
       "skills": [
         "pedro-coding-agent-workflow"
       ],
@@ -43,7 +43,7 @@
     {
       "id": "5ac3660fb9a4",
       "name": "eod-recap",
-      "prompt": "It's 19:00. Send Pedro his end-of-day recap in Lua's normal brief WhatsApp style.\n\nMust include, in this order:\n1) What got done today \u2014 synthesize from to-dos/memory/context and injected GitHub repo-analysis context.\n2) GitHub/repo recap: analyze repos actively worked on today/recently. For each relevant repo, summarize progress, open PRs/issues, failed CI/deploy signals, blockers, and the next concrete step. Do not dump raw events.\n3) What is still pending and should roll into tomorrow.\n4) Tomorrow's preview / first suggested priorities.\n5) One short reflection or win prompt.\n\nRules:\n- Be concise and mobile-friendly, but do not omit repo analysis when GitHub context exists.\n- Clearly mark items that need Pedro approval/decision: merge, deploy, live verification, history rewrite, or production/secret work.\n- Do not start GitHub work, create issues, merge, deploy, or rewrite history; this recap is read-only planning.\n- If no repo activity is found, say so briefly and focus on non-GitHub pending items.",
+      "prompt": "It is the end of the day. Send Pedro his recap in your normal brief WhatsApp style: (1) what got done today; (2) what is still pending - roll those into tomorrow to-do list in memory; (3) tomorrow preview - pull tomorrow events from his Google Calendar with times and titles, plus any known to-dos; (4) one short reflection or win prompt. If you already did a recap on request today, send a brief sign-off instead.",
       "skills": [
         "pedro-coding-agent-workflow"
       ],
@@ -83,7 +83,7 @@
     {
       "id": "d29bf10c97f1",
       "name": "tomorrow-prep",
-      "prompt": "It's 22:00. Send Pedro a short 'tomorrow prep' message: look up tomorrow's forecast for Porto and Vila Nova de Famalicao and recommend what to wear, plus a one-line forecast summary. Keep it brief and friendly.",
+      "prompt": "It is 22:00. Send Pedro a short tomorrow-prep message: (1) look up tomorrow forecast for Porto and Vila Nova de Famalicao and recommend what to wear, plus a one-line forecast summary; (2) a quick heads-up on tomorrow first calendar commitments - use your calendar tools to find the earliest events and times so he knows when his day starts. Keep it brief and friendly.",
       "skills": [],
       "skill": null,
       "model": null,
@@ -119,5 +119,5 @@
       "profile": null
     }
   ],
-  "updated_at": "2026-05-22T22:01:08.613866+01:00"
+  "updated_at": "2026-05-23T01:05:00.255753+01:00"
 }
