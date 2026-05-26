@@ -10,6 +10,6 @@ Pedro’s ops preferences: Google Sheet is human dashboard; Hermes Kanban is exe
 §
 High-risk action policy is written at /opt/data/lua/high-risk-action-policy.md and logged in the “Lua Operating System” Google Sheet Decisions tab.
 §
-Coding workflow: load `pedro-coding-agent-workflow`. Claude/Codex login: diogosilvaenterprise@gmail.com. Codex defaults: gpt-5.5 + xhigh. Claude wrapper defaults: --effort max + --dangerously-skip-permissions. Local tmux: /opt/data/home/.local/bin/tmux; helper: claude-tmux-plan.
+Coding workflow: load `pedro-coding-agent-workflow`. Lua PMs software builds: strong prompts/plan mode, GitHub issues/PRs, parallel Claude/Codex, early context compaction. Long agent runs use tmux/Hermes background with notify_on_complete, not manual polling. Codex: gpt-5.5+xhigh. Claude: effort max+bypass. Local tmux: /opt/data/home/.local/bin/tmux.
 §
 Gmail push scaffold: /opt/data/lua/gmail-push; uses /opt/data/google_token.json and sends WhatsApp via Hermes send_message.
