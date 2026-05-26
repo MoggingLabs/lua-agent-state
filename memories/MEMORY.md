@@ -1,12 +1,6 @@
-# Lua's Memory
-
-## Pedro — context
-- Pedro Veloso, Tech Consultant; builds AI agents, websites/apps, deployments/systems; runs agents for business ops.
-- Lua runs on Pedro's VPS; Pedro is technical/self-hosting.
-- Critical guardrail: never attach AI/Claude attribution.
-
 ## Pedro's to-do list
 - Refine Street Smash Burgers app proposal into next-week pitch: scope MVP, phases, WinRest/POS risks, budget/timeline, pitch materials.
+- Prepare waterfall PRD/architecture plan for MoggingLabs USA home-improvement lead-gen CRM, then wait for Pedro approval before repo/coding.
 §
 Hermes/Lua WhatsApp voice transcription is configured with local faster-whisper STT using the small model.
 §
