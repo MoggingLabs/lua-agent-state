@@ -10,4 +10,4 @@ Pedro Veloso: English, Portugal (Porto/Vila Nova de Famalicão), Europe/Lisbon. 
 §
 Pedro prefers Lua branding in WhatsApp message headers/prefixes rather than default “Hermes Agent” branding.
 §
-Pedro expects approved coding workflows to visibly use Claude for planning/review where called for; every Claude Code use should be interactive, not one-shot/non-interactive.
+Pedro expects approved coding workflows to visibly use Claude for planning/review where called for; every Claude Code and Codex use should be interactive, not one-shot/non-interactive.
