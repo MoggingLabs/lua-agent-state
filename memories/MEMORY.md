@@ -1,6 +1,6 @@
 ## Pedro's to-do list
 - Refine Street Smash Burgers app proposal into next-week pitch: scope MVP, phases, WinRest/POS risks, budget/timeline, pitch materials.
-- Prepare waterfall PRD/architecture plan for MoggingLabs USA home-improvement lead-gen CRM, then wait for Pedro approval before repo/coding.
+- Prepare waterfall PRD/architecture plan for MoggingLabs Scout, a USA home-improvement B2B lead-gen CRM for MoggingLabs, then wait for Pedro approval before repo/coding.
 §
 Hermes/Lua WhatsApp voice transcription is configured with local faster-whisper STT using the small model.
 §
