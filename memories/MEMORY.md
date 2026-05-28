@@ -1,6 +1,6 @@
 ## Pedro's to-do list
 - Refine Street Smash Burgers app proposal into next-week pitch: scope MVP, phases, WinRest/POS risks, budget/timeline, pitch materials.
-- Continue MoggingLabs Scout waterfall: finish M1 App Foundation leftovers (#7 design system foundation, #11 Vercel preview deployment), then start M2 Lead Data Core.
+- Continue MoggingLabs Scout waterfall: M1 App Foundation closed; next is M2 Lead Data Core.
 §
 Hermes/Lua WhatsApp voice transcription is configured with local faster-whisper STT using the small model.
 §
