@@ -11,6 +11,6 @@ Pedro’s ops preferences: Google Sheet is human dashboard; Hermes Kanban is exe
 §
 High-risk action policy is written at /opt/data/lua/high-risk-action-policy.md and logged in the “Lua Operating System” Google Sheet Decisions tab.
 §
-Claude Code runs via `npx @anthropic-ai/claude-code` if `claude` is absent; security-guidance@claude-plugins-official v2.0.0 is installed/enabled under /opt/data/home. Claude wrapper preference: effort max+bypass+interactive remote control, no --max-turns. Codex: gpt-5.5+xhigh, unrestricted danger bypass for approved coding; no artificial turn/time caps.
+Claude Code 2.1.154 is installed locally under /opt/data/home/.local; `/opt/data/home/.local/bin/claude` wraps it and exports Opus 4.8 default model with 1M context env. security-guidance@claude-plugins-official v2.0.0 is installed/enabled under /opt/data/home. Claude wrapper preference: effort max+bypass+interactive remote control, no --max-turns. Codex: gpt-5.5+xhigh, unrestricted danger bypass for approved coding; no artificial turn/time caps.
 §
 Gmail push scaffold: /opt/data/lua/gmail-push; uses /opt/data/google_token.json and sends WhatsApp via Hermes send_message.
