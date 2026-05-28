@@ -370,7 +370,8 @@ curator:
 honcho: {}
 timezone: ''
 slack:
-  require_mention: true
+  require_mention: false
+  reply_in_thread: false
   free_response_channels: ''
   allowed_channels: ''
   channel_prompts: {}
