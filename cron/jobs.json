@@ -107,7 +107,7 @@
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-05-21T23:22:50.145033+01:00",
-      "next_run_at": "2026-05-28T22:00:00+01:00",
+      "next_run_at": "2026-05-29T22:00:00+01:00",
       "last_run_at": "2026-05-27T22:00:29.237086+01:00",
       "last_status": "error",
       "last_error": "RuntimeError: 'NoneType' object is not iterable",
@@ -205,5 +205,5 @@
       "profile": null
     }
   ],
-  "updated_at": "2026-05-28T19:01:38.972933+01:00"
+  "updated_at": "2026-05-28T22:00:24.799207+01:00"
 }
