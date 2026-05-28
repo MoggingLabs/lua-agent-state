@@ -1,6 +1,6 @@
 ## Pedro's to-do list
 - Refine Street Smash Burgers app proposal into next-week pitch: scope MVP, phases, WinRest/POS risks, budget/timeline, pitch materials.
-- Continue MoggingLabs Scout waterfall: repo setup done at https://github.com/MoggingLabs/mogginglabs-scout; next approval gate is Phase 5 implementation foundation planning/coding scope.
+- Continue MoggingLabs Scout waterfall: finish M1 App Foundation leftovers (#7 design system foundation, #11 Vercel preview deployment), then start M2 Lead Data Core.
 §
 Hermes/Lua WhatsApp voice transcription is configured with local faster-whisper STT using the small model.
 §
@@ -10,6 +10,6 @@ Pedro’s ops preferences: Google Sheet is human dashboard; Hermes Kanban is exe
 §
 High-risk action policy is written at /opt/data/lua/high-risk-action-policy.md and logged in the “Lua Operating System” Google Sheet Decisions tab.
 §
-Coding workflow: load `pedro-coding-agent-workflow`. Lua PMs software builds with GitHub issues/PRs, parallel Claude/Codex, early compaction, background notify_on_complete. Claude wrapper auto-adds effort max+bypass+interactive remote control and strips --max-turns. Codex: gpt-5.5+xhigh, unrestricted danger bypass for approved coding; no artificial turn/time caps.
+Claude Code runs via `npx @anthropic-ai/claude-code` if `claude` is absent; security-guidance@claude-plugins-official v2.0.0 is installed/enabled under /opt/data/home. Claude wrapper preference: effort max+bypass+interactive remote control, no --max-turns. Codex: gpt-5.5+xhigh, unrestricted danger bypass for approved coding; no artificial turn/time caps.
 §
 Gmail push scaffold: /opt/data/lua/gmail-push; uses /opt/data/google_token.json and sends WhatsApp via Hermes send_message.
