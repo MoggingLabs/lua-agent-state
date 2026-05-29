@@ -1,7 +1,4 @@
-## Pedro's to-do list
-- Refine Street Smash Burgers app proposal into next-week pitch: scope MVP, phases, WinRest/POS risks, budget/timeline, pitch materials.
-- Continue MoggingLabs Scout waterfall: M2 Lead Data Core in progress; #12 schema and #13 CSV import wizard UI closed, next #14 CSV parsing/column mapping.
-- Plan SaaS productization of Diogo-Silva-VoxHorizon-Marketing-Control-Panel for other lead-gen enterprises.
+Continue MoggingLabs Scout waterfall: M2 Lead Data Core in progress; #12 schema, #13 CSV import wizard UI, and #14 CSV parsing/column mapping closed; next #15 import validation and deduplication.
 §
 Hermes/Lua WhatsApp voice transcription is configured with local faster-whisper STT using the small model.
 §
