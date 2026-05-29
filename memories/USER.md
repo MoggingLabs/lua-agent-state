@@ -16,4 +16,4 @@ Pedro is strict about deliverable format: if he asks for a Google Doc stored in 
 §
 Pedro expects serious SaaS/product planning to include broad multi-agent industry deep-dive research, using both Claude Code and Codex where useful, to find comparable products, architectural/data-model patterns, and anticipated risks before API spec or implementation.
 §
-Pedro wants Claude Code and Codex long-running planning/research/review/generation runs to always be launched as background processes with notify_on_complete=true, without artificial foreground timeouts; wait for completion notifications instead of killing them on a fixed timeout.
+Pedro wants all Claude Code and Codex runs to be launched as tracked background processes with notify_on_complete=true and no artificial foreground timeout, regardless of expected duration; wait for completion notifications instead of setting fixed timeouts.
