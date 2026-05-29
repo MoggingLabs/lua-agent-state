@@ -1,4 +1,4 @@
-Continue MoggingLabs Scout waterfall: M2 Lead Data Core in progress; #12 schema, #13 CSV import wizard UI, and #14 CSV parsing/column mapping closed; next #15 import validation and deduplication.
+Continue MoggingLabs Scout waterfall: M2 Lead Data Core in progress; #12 schema, #13 CSV import wizard UI, #14 CSV parsing/column mapping, and #15 import validation/deduplication closed; next #16 commit valid import rows as leads.
 §
 Hermes/Lua WhatsApp voice transcription is configured with local faster-whisper STT using the small model.
 §
