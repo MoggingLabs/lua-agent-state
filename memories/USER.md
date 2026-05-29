@@ -15,3 +15,5 @@ Pedro expects approved coding workflows to use Claude/Codex interactively where 
 Pedro is strict about deliverable format: if he asks for a Google Doc stored in Google Workspace, he expects a native Google Doc in Drive, not a local HTML deck or a casual conversion. Client-facing Google Workspace documents should be polished to pitch-deck quality, with strong design/layout and careful review before delivery.
 §
 Pedro expects serious SaaS/product planning to include broad multi-agent industry deep-dive research, using both Claude Code and Codex where useful, to find comparable products, architectural/data-model patterns, and anticipated risks before API spec or implementation.
+§
+Pedro expects long Claude planning/review/generation runs to be launched as background tracked jobs with notify_on_complete and allowed to finish naturally, not killed with arbitrary foreground timeouts.
