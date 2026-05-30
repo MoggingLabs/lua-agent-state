@@ -16,4 +16,4 @@ Pedro is strict about deliverable format: if he asks for a Google Doc stored in 
 §
 Pedro expects serious SaaS/product planning to include broad multi-agent industry deep-dive research, using both Claude Code and Codex where useful, to find comparable products, architectural/data-model patterns, and anticipated risks before API spec or implementation.
 §
-Pedro wants all Claude Code and Codex runs tracked with notify_on_complete=true and no artificial foreground timeout. Claude Code runs should be interactive instances with remote control enabled (usually tmux-wrapped and monitored by a Hermes background notifier), not print-mode, unless Pedro explicitly asks otherwise. Codex runs should also be background tracked with notify_on_complete=true.
+Pedro requires all Claude Code and Codex runs to be tracked with notify_on_complete=true and no artificial foreground timeout. Claude Code must run as interactive remote-control sessions, not print-mode, unless Pedro explicitly authorizes an exception; Codex runs must also be background tracked with notify_on_complete=true.
