@@ -14,7 +14,7 @@ Pedro’s SaaS productization direction for the VoxHorizon-inspired lead-gen age
 §
 For the lead-gen agency AdOps OS PRD, Pedro confirmed: browser SaaS MVP with local runner planned in architecture later; BYOK supports cloud vault in MVP and local-only later; Meta launch package export first, paused campaigns/ad drafts later; monitoring pulls Meta+GHL first with kill/scale recommendations as private beta logic; native workflow core with ClickUp export later; creative data model should use shared creative base + media-specific extension tables; client profiles should combine core required structured fields plus freeform profile documents/extracted fields; first commercial motion is paid design partner program; first beta requires PRD/architecture approved, image pipeline E2E, Meta/GHL, compliance, launch package; white-label should be architecture-ready, not MVP UI.
 §
-Lead-gen AdOps OS artifacts: `/opt/data/product-planning/leadgen-adops-os/` (versioned PRD/architecture; research in `agent-research/`). Slack channel: `mogginglabs-ad-ops` (formerly `mogginglabs-ad-factory`).
+Lead-gen AdOps OS artifacts: `/opt/data/product-planning/leadgen-adops-os/` (versioned PRD/architecture; research in `agent-research/`). GitHub repo: `MoggingLabs/mogginglabs-ad-ops` is public. Treat `Diogo-Silva-VoxHorizon-Marketing-Control-Panel` as clean-room/product inspiration only: no code extraction, no Diogo/VoxHorizon-specific business logic, no private client data. Slack channel: `mogginglabs-ad-ops`.
 §
 Coding-agent prompt standard: use the `coding-agent-master-prompts` skill before Claude Code or Codex invocations; Claude prompts use Markdown+XML sections/rubrics, Codex prompts use execution contracts with validation, JSON handoff, and stop conditions.
 §
