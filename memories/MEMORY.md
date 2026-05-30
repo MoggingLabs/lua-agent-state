@@ -19,3 +19,5 @@ Lead-gen AdOps OS artifacts: `/opt/data/product-planning/leadgen-adops-os/` (ver
 Coding-agent prompt standard: use the `coding-agent-master-prompts` skill before Claude Code or Codex invocations; Claude prompts use Markdown+XML sections/rubrics, Codex prompts use execution contracts with validation, JSON handoff, and stop conditions.
 §
 Lead-gen AdOps OS planning gate: proceed strictly one artifact at a time in this order — final PRD, architecture, data model/ERD, API spec, UX workflow spec. Do not move to the next artifact until Pedro explicitly approves the current document.
+§
+Claude Code is installed under `/opt/data/home/.local` with wrapper `/opt/data/home/.local/bin/claude`; `.bashrc` and `.profile` put `$HOME/.local/bin` on PATH. Verified version 2.1.158 and Claude Max auth.
