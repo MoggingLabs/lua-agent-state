@@ -1,4 +1,4 @@
-Continue MoggingLabs Scout waterfall: M2 Lead Data Core has lead schema, CSV import, manual lead create/edit, lead table/filters, and lead detail/drawer merged to main. Next step is a small lead CRM integration pass: wire table create/edit/drawer flows, consolidate shared LeadStatusBadge, then validate before moving beyond M2.
+Pedro expects strict approval boundaries during waterfall planning: reading related files is fine, but edits should be limited to the explicitly approved artifact; ask before editing adjacent/provenance files unless he explicitly approves broader scope.
 §
 Hermes/Lua WhatsApp voice transcription is configured with local faster-whisper STT using the small model.
 §
