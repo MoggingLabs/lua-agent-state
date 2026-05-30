@@ -8,8 +8,6 @@ Pedro’s ops preferences: Google Sheet is human dashboard; Hermes Kanban is exe
 §
 High-risk action policy is written at /opt/data/lua/high-risk-action-policy.md and logged in the “Lua Operating System” Google Sheet Decisions tab.
 §
-Claude Code is installed locally under /opt/data/home/.local; the current CLI path is `/opt/data/home/.local/node_modules/.bin/claude`. Check `claude --version` live before invoking because wrapper paths may drift.
-§
 Gmail push scaffold: /opt/data/lua/gmail-push; uses /opt/data/google_token.json and sends WhatsApp via Hermes send_message.
 §
 Pedro’s SaaS productization direction for the VoxHorizon-inspired lead-gen agency product: use repo only as idea/reference, no code extraction; waterfall-first with full PRD/architecture/schema/API/implementation plan before coding; MVP is image-ad pipeline + client profiles, video later; AI Operator is excluded from MVP and reserved as upsell; Pedro is interested in desktop-first/hybrid if it offloads compute/API/resource costs to customers’ machines/BYOK setup.
