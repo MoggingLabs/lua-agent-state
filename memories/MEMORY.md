@@ -17,3 +17,5 @@ For the lead-gen agency AdOps OS PRD, Pedro confirmed: browser SaaS MVP with loc
 Lead-gen AdOps OS artifacts: `/opt/data/product-planning/leadgen-adops-os/` (versioned PRD/architecture; research in `agent-research/`). Slack channel: `mogginglabs-ad-ops` (formerly `mogginglabs-ad-factory`).
 §
 Coding-agent prompt standard: use the `coding-agent-master-prompts` skill before Claude Code or Codex invocations; Claude prompts use Markdown+XML sections/rubrics, Codex prompts use execution contracts with validation, JSON handoff, and stop conditions.
+§
+Lead-gen AdOps OS planning gate: proceed strictly one artifact at a time in this order — final PRD, architecture, data model/ERD, API spec, UX workflow spec. Do not move to the next artifact until Pedro explicitly approves the current document.
