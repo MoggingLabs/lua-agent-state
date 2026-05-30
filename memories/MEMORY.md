@@ -1,4 +1,4 @@
-Continue MoggingLabs Scout waterfall: M2 Lead Data Core in progress; #12 schema, #13 CSV import wizard UI, #14 CSV parsing/column mapping, #15 import validation/deduplication, and #16 commit valid import rows closed; next #17 manual lead create/edit, then #18 lead table/filters and #19 lead detail/drawer.
+Continue MoggingLabs Scout waterfall: M2 Lead Data Core has lead schema, CSV import, manual lead create/edit, lead table/filters, and lead detail/drawer merged to main. Next step is a small lead CRM integration pass: wire table create/edit/drawer flows, consolidate shared LeadStatusBadge, then validate before moving beyond M2.
 §
 Hermes/Lua WhatsApp voice transcription is configured with local faster-whisper STT using the small model.
 §
