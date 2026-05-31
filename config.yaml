@@ -133,7 +133,7 @@ tool_loop_guardrails:
     idempotent_no_progress: 5
 compression:
   enabled: true
-  threshold: 0.85
+  threshold: 0.70
   target_ratio: 0.35
   protect_last_n: 50
   hygiene_hard_message_limit: 700
@@ -371,7 +371,7 @@ honcho: {}
 timezone: ''
 slack:
   require_mention: false
-  reply_in_thread: false
+  reply_in_thread: true
   dm_top_level_threads_as_sessions: false
   reply_broadcast: false
   free_response_channels: ''
