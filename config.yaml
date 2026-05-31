@@ -372,6 +372,8 @@ timezone: ''
 slack:
   require_mention: false
   reply_in_thread: false
+  dm_top_level_threads_as_sessions: false
+  reply_broadcast: false
   free_response_channels: ''
   allowed_channels: ''
   channel_prompts: {}
