@@ -16,6 +16,6 @@ Pedro is strict about deliverable format: if he asks for a Google Doc stored in 
 §
 Pedro expects serious SaaS/product planning to include broad multi-agent industry deep-dive research before API/implementation, plus independent review gates for ERD/API/UX/implementation artifacts; all blockers and should-fix findings must be patched systematically and re-reviewed before moving to the next planning stage.
 §
-Pedro requires all Claude Code and Codex runs to be tracked with notify_on_complete=true and no artificial foreground timeout. Claude Code must run as interactive remote-control sessions, not print-mode, unless Pedro explicitly authorizes an exception; Codex runs must also be background tracked with notify_on_complete=true.
+Pedro requires approved coding workflows to be followed strictly: Lua must not directly implement coding slices just because they seem small; use the established planning/review and implementation lanes, with Claude Code and Codex interactive runs tracked via notify_on_complete=true and no artificial foreground timeout.
 §
 Pedro expects PR caveats or nice-to-haves that Lua explicitly mentions to be actionable follow-up work when he asks; treat that as approval to address the caveat inside the current PR scope, then rerun validation, independent review, and CI before reporting ready.
