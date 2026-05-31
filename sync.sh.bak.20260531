@@ -8,7 +8,7 @@ cd "$REPO" || exit 1
 
 # 1. Mirror plaintext state
 rsync -a --delete "$DATA/config.yaml" "$REPO/config.yaml"
-rsync -a "$DATA"/SOUL*.md "$REPO"/
+rsync -a --delete "$DATA/SOUL.md" "$REPO/SOUL.md"
 rsync -a --delete "$DATA/memories/" "$REPO/memories/"
 rsync -a --delete --exclude '.tick.lock' --exclude 'output/' "$DATA/cron/" "$REPO/cron/"
 [ -d "$DATA/hooks" ] && rsync -a --delete "$DATA/hooks/" "$REPO/hooks/"
