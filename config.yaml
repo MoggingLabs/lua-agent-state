@@ -133,12 +133,12 @@ tool_loop_guardrails:
     idempotent_no_progress: 5
 compression:
   enabled: true
-  threshold: 0.65
-  target_ratio: 0.2
-  protect_last_n: 20
-  hygiene_hard_message_limit: 400
-  protect_first_n: 3
-  abort_on_summary_failure: false
+  threshold: 0.85
+  target_ratio: 0.35
+  protect_last_n: 50
+  hygiene_hard_message_limit: 700
+  protect_first_n: 5
+  abort_on_summary_failure: true
 prompt_caching:
   cache_ttl: 5m
 openrouter:
