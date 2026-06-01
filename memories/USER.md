@@ -14,7 +14,7 @@ Pedro expects approved coding workflows to use Claude/Codex interactively where 
 §
 Pedro is strict about deliverable format: if he asks for a Google Doc stored in Google Workspace, he expects a native Google Doc in Drive, not a local HTML deck or a casual conversion. Client-facing Google Workspace documents should be polished to pitch-deck quality, with strong design/layout and careful review before delivery.
 §
-Pedro expects serious SaaS/product planning to include broad industry deep-dive research before API/implementation, independent ERD/API/UX/implementation reviews, systematic blocker/should-fix closure, and GitHub issue-quality gates over both open and closed issues before assigning coding work.
+Pedro expects serious SaaS/product planning to include broad industry deep-dive research before API/implementation, independent artifact reviews, issue-quality gates, and actual remediation of all blocker/should-fix/PASS_WITH_FIXES findings before treating a gate as clean PASS.
 §
 Pedro requires approved coding workflows strictly for repo-facing software changes/docs: Claude Code is the required planning/final review gate, Codex is the implementation/patching worker, generic delegated reviews do not count as final review, and Codex must run background notify-on-complete without timeout polling/killing.
 §
