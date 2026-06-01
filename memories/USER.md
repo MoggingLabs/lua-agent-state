@@ -14,7 +14,7 @@ Pedro expects approved coding workflows to use Claude/Codex interactively where 
 §
 Pedro is strict about deliverable format: if he asks for a Google Doc stored in Google Workspace, he expects a native Google Doc in Drive, not a local HTML deck or a casual conversion. Client-facing Google Workspace documents should be polished to pitch-deck quality, with strong design/layout and careful review before delivery.
 §
-Pedro expects serious SaaS/product planning to include broad multi-agent industry deep-dive research before API/implementation, plus independent review gates for ERD/API/UX/implementation artifacts; all blockers and should-fix findings must be patched systematically and re-reviewed before moving to the next planning stage.
+Pedro expects serious SaaS/product planning to include broad industry deep-dive research before API/implementation, independent ERD/API/UX/implementation reviews, systematic blocker/should-fix closure, and GitHub issue-quality gates over both open and closed issues before assigning coding work.
 §
 Pedro requires approved coding workflows to be followed strictly: there is no “safe enough” exception for Lua to directly implement coding slices; Lua must offload planning/review to Claude Code and implementation to Codex using the prompt-engineering workflow, with interactive runs tracked via notify_on_complete=true.
 §
