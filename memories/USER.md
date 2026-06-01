@@ -16,6 +16,6 @@ Pedro is strict about deliverable format: if he asks for a Google Doc stored in 
 §
 Pedro expects serious SaaS/product planning to include broad industry deep-dive research before API/implementation, independent ERD/API/UX/implementation reviews, systematic blocker/should-fix closure, and GitHub issue-quality gates over both open and closed issues before assigning coding work.
 §
-Pedro requires approved coding workflows strictly for all repo-facing software-project changes, including docs/planning artifacts: no direct patches by Lua unless explicitly requested; offload planning/review to Claude Code and implementation/patching to Codex, and run both as tracked background processes with notify_on_complete=true and no artificial foreground timeouts.
+Pedro requires approved coding workflows strictly for repo-facing software changes/docs: Claude Code is the required planning/final review gate, Codex is the implementation/patching worker, generic delegated reviews do not count as final review, and Codex must run background notify-on-complete without timeout polling/killing.
 §
 Pedro expects PR caveats or nice-to-haves that Lua explicitly mentions to be actionable follow-up work when he asks; treat that as approval to address the caveat inside the current PR scope, then rerun validation, independent review, and CI before reporting ready.
