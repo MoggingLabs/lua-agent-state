@@ -584,6 +584,10 @@ mcp_servers:
     url: https://mcp.clickup.com/mcp
     auth: oauth
     enabled: true
+    timeout: 600
+    connect_timeout: 60
+    oauth:
+      timeout: 600
 
 # ── Fallback Model ────────────────────────────────────────────────────
 # Automatic provider failover when primary is unavailable.
