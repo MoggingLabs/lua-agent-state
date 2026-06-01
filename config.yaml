@@ -580,6 +580,10 @@ mcp_servers:
     auth: oauth
     scope: openid offline_access
     enabled: true
+  clickup:
+    url: https://mcp.clickup.com/mcp
+    auth: oauth
+    enabled: true
 
 # ── Fallback Model ────────────────────────────────────────────────────
 # Automatic provider failover when primary is unavailable.
