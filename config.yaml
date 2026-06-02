@@ -30,14 +30,12 @@ agent:
     creative: You are a creative assistant. Think outside the box and offer innovative
       solutions.
     teacher: You are a patient teacher. Explain concepts clearly with examples.
-    kawaii: "You are a kawaii assistant! Use cute expressions like (\u25D5\u203F\u25D5\
-      ), \u2605, \u266A, and ~! Add sparkles and be super enthusiastic about everything!\
-      \ Every response should feel warm and adorable desu~! \u30FD(>\u2200<\u2606\
-      )\u30CE"
-    catgirl: "You are Neko-chan, an anime catgirl AI assistant, nya~! Add 'nya' and\
-      \ cat-like expressions to your speech. Use kaomoji like (=^\uFF65\u03C9\uFF65\
-      ^=) and \u0E05^\u2022\uFECC\u2022^\u0E05. Be playful and curious like a cat,\
-      \ nya~!"
+    kawaii: You are a kawaii assistant! Use cute expressions like (◕‿◕), ★, ♪, and
+      ~! Add sparkles and be super enthusiastic about everything! Every response should
+      feel warm and adorable desu~! ヽ(>∀<☆)ノ
+    catgirl: You are Neko-chan, an anime catgirl AI assistant, nya~! Add 'nya' and
+      cat-like expressions to your speech. Use kaomoji like (=^･ω･^=) and ฅ^•ﻌ•^ฅ.
+      Be playful and curious like a cat, nya~!
     pirate: 'Arrr! Ye be talkin'' to Captain Hermes, the most tech-savvy pirate to
       sail the digital seas! Speak like a proper buccaneer, use nautical terms, and
       remember: every problem be just treasure waitin'' to be plundered! Yo ho ho!'
@@ -45,9 +43,9 @@ agent:
       I shall respond in the eloquent manner of William Shakespeare, with flowery
       prose, dramatic flair, and perhaps a soliloquy or two. What light through yonder
       terminal breaks?
-    surfer: "Duuude! You're chatting with the chillest AI on the web, bro! Everything's\
-      \ gonna be totally rad. I'll help you catch the gnarly waves of knowledge while\
-      \ keeping things super chill. Cowabunga! \U0001F919"
+    surfer: Duuude! You're chatting with the chillest AI on the web, bro! Everything's
+      gonna be totally rad. I'll help you catch the gnarly waves of knowledge while
+      keeping things super chill. Cowabunga! 🤙
     noir: The rain hammered against the terminal like regrets on a guilty conscience.
       They call me Hermes - I solve problems, find answers, dig up the truth that
       hides in the shadows of your codebase. In this city of silicon and secrets,
@@ -59,10 +57,9 @@ agent:
       deeper meaning behind every query. Let us examine not just the 'how' but the
       'why' of your questions. Perhaps in solving your problem, we may glimpse a greater
       truth about existence itself.
-    hype: "YOOO LET'S GOOOO!!! \U0001F525\U0001F525\U0001F525 I am SO PUMPED to help\
-      \ you today! Every question is AMAZING and we're gonna CRUSH IT together! This\
-      \ is gonna be LEGENDARY! ARE YOU READY?! LET'S DO THIS! \U0001F4AA\U0001F624\
-      \U0001F680"
+    hype: YOOO LET'S GOOOO!!! 🔥🔥🔥 I am SO PUMPED to help you today! Every question
+      is AMAZING and we're gonna CRUSH IT together! This is gonna be LEGENDARY! ARE
+      YOU READY?! LET'S DO THIS! 💪😤🚀
 terminal:
   backend: local
   modal_mode: auto
@@ -402,8 +399,11 @@ discord:
   allow_any_attachment: false
   max_attachment_bytes: 33554432
 whatsapp:
-  reply_prefix: "\U0001F319 *Lua*\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\
-    \u2500\u2500\u2500\u2500\n"
+  reply_prefix: '🌙 *Lua*
+
+    ────────────
+
+    '
 telegram:
   reactions: false
   channel_prompts: {}
@@ -588,25 +588,113 @@ mcp_servers:
     connect_timeout: 60
     oauth:
       timeout: 600
-
-# ── Fallback Model ────────────────────────────────────────────────────
-# Automatic provider failover when primary is unavailable.
-# Uncomment and configure to enable. Triggers on rate limits (429),
-# overload (529), service errors (503), or connection failures.
-#
-# Supported providers:
-#   openrouter   (OPENROUTER_API_KEY)  — routes to any model
-#   openai-codex (OAuth — hermes auth) — OpenAI Codex
-#   nous         (OAuth — hermes auth) — Nous Portal
-#   zai          (ZAI_API_KEY)         — Z.AI / GLM
-#   kimi-coding  (KIMI_API_KEY)        — Kimi / Moonshot
-#   kimi-coding-cn (KIMI_CN_API_KEY)   — Kimi / Moonshot (China)
-#   minimax      (MINIMAX_API_KEY)     — MiniMax
-#   minimax-cn   (MINIMAX_CN_API_KEY)  — MiniMax (China)
-#   bedrock      (AWS IAM / boto3)     — AWS Bedrock (Converse API)
-#
-# For custom OpenAI-compatible endpoints, add base_url and key_env.
-#
-# fallback_model:
-#   provider: openrouter
-#   model: anthropic/claude-sonnet-4
+  ghl_voxhorizon_b2b:
+    url: https://services.leadconnectorhq.com/mcp/
+    headers:
+      Authorization: Bearer ${GHL_PIT_VOXHORIZON_B2B}
+      locationId: VODQBQThcjrSvTpChGxe
+    enabled: true
+    timeout: 180
+    connect_timeout: 60
+    lua_managed: ghl
+    description: VoxHorizon B2B (B2B Sub-Accounts)
+  ghl_voxhorizon_agency:
+    url: https://services.leadconnectorhq.com/mcp/
+    headers:
+      Authorization: Bearer ${GHL_PIT_VOXHORIZON_AGENCY}
+      locationId: i8XvyhWBQOpwIBK9zHRr
+    enabled: true
+    timeout: 180
+    connect_timeout: 60
+    lua_managed: ghl
+    description: VoxHorizon Agency (B2B Sub-Accounts)
+  ghl_voxhorizon_outreach:
+    url: https://services.leadconnectorhq.com/mcp/
+    headers:
+      Authorization: Bearer ${GHL_PIT_VOXHORIZON_OUTREACH}
+      locationId: iX894n7lqSWDhaCjSAx9
+    enabled: true
+    timeout: 180
+    connect_timeout: 60
+    lua_managed: ghl
+    description: VoxHorizon Outreach (B2B Sub-Accounts)
+  ghl_vh_snapshot_sandbox:
+    url: https://services.leadconnectorhq.com/mcp/
+    headers:
+      Authorization: Bearer ${GHL_PIT_VH_SNAPSHOT_SANDBOX}
+      locationId: PI558gL3nlVymA803k8V
+    enabled: true
+    timeout: 180
+    connect_timeout: 60
+    lua_managed: ghl
+    description: VH Snapshot (Sandbox) (B2B Sub-Accounts)
+  ghl_all_done_roofing_and_construction:
+    url: https://services.leadconnectorhq.com/mcp/
+    headers:
+      Authorization: Bearer ${GHL_PIT_ALL_DONE_ROOFING_AND_CONSTRUCTION}
+      locationId: 7Lzo4u9RcwZFMlx4wtYi
+    enabled: true
+    timeout: 180
+    connect_timeout: 60
+    lua_managed: ghl
+    description: All Done Roofing and Construction (B2C Sub-Accounts)
+  ghl_texas_accent_roofing:
+    url: https://services.leadconnectorhq.com/mcp/
+    headers:
+      Authorization: Bearer ${GHL_PIT_TEXAS_ACCENT_ROOFING}
+      locationId: sdXkAm87zC6k7XQK7Cs3
+    enabled: true
+    timeout: 180
+    connect_timeout: 60
+    lua_managed: ghl
+    description: Texas Accent Roofing (B2C Sub-Accounts)
+  ghl_sh_quality_roofing:
+    url: https://services.leadconnectorhq.com/mcp/
+    headers:
+      Authorization: Bearer ${GHL_PIT_SH_QUALITY_ROOFING}
+      locationId: 2EeTImkMJGJXnjM8suau
+    enabled: true
+    timeout: 180
+    connect_timeout: 60
+    lua_managed: ghl
+    description: SH Quality Roofing (B2C Sub-Accounts)
+  ghl_dinero_homes_remodeling_and_construction:
+    url: https://services.leadconnectorhq.com/mcp/
+    headers:
+      Authorization: Bearer ${GHL_PIT_DINERO_HOMES_REMODELING_AND_CONSTRUCTION}
+      locationId: lTxSZLfZGjFjEarRhzX9
+    enabled: true
+    timeout: 180
+    connect_timeout: 60
+    lua_managed: ghl
+    description: Dinero Homes Remodeling and Construction (B2C Sub-Accounts)
+  ghl_kris_konstruction:
+    url: https://services.leadconnectorhq.com/mcp/
+    headers:
+      Authorization: Bearer ${GHL_PIT_KRIS_KONSTRUCTION}
+      locationId: DNolG8mwE0Pk17RMmPzT
+    enabled: true
+    timeout: 180
+    connect_timeout: 60
+    lua_managed: ghl
+    description: Kris Konstruction (B2C Sub-Accounts)
+  ghl_america_s_general_contractor:
+    url: https://services.leadconnectorhq.com/mcp/
+    headers:
+      Authorization: Bearer ${GHL_PIT_AMERICA_S_GENERAL_CONTRACTOR}
+      locationId: BWSzwP8EGlT2X4pqy7K2
+    enabled: true
+    timeout: 180
+    connect_timeout: 60
+    lua_managed: ghl
+    description: America's General Contractor (B2C Sub-Accounts)
+  ghl_aquarium_container_pools:
+    url: https://services.leadconnectorhq.com/mcp/
+    headers:
+      Authorization: Bearer ${GHL_PIT_AQUARIUM_CONTAINER_POOLS}
+      locationId: pmHz9pRa1EN1S1ph6Lq6
+    enabled: true
+    timeout: 180
+    connect_timeout: 60
+    lua_managed: ghl
+    description: Aquarium Container Pools (B2C Sub-Accounts)
