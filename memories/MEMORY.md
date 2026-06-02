@@ -20,4 +20,4 @@ Coding-agent prompt standard: use the `coding-agent-master-prompts` skill before
 §
 Lead-gen AdOps OS planning gate: proceed strictly one artifact at a time in this order — final PRD, architecture, data model/ERD, API spec, UX workflow spec. Do not move to the next artifact until Pedro explicitly approves the current document.
 §
-Claude Code auth works under `HOME=/opt/data/home`; `/opt/data/home/.local/bin/claude` is a local wrapper to `/opt/data/home/.local/node_modules/@anthropic-ai/claude-code/bin/claude.exe` (recreated 2026-06-02).
+Claude Code auth works under `HOME=/opt/data/home`; use `/opt/data/home/.local/node_modules/@anthropic-ai/claude-code/bin/claude.exe` directly or recreate `/opt/data/home/.local/bin/claude` wrapper if missing, because the wrapper can disappear during Claude auto-update attempts.
