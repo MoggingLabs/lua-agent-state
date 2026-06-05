@@ -6,7 +6,7 @@ User prefers GitHub Git operations to use SSH rather than HTTPS.
 §
 User's Google Workspace/Gmail account for Lua integration is pedrovelosofernandes031@gmail.com.
 §
-Pedro Veloso: English, Portugal (Porto/Vila Nova de Famalicão), Europe/Lisbon. Tech Consultant building AI agents, websites/web apps, deployments, and systems. Lua supports personal productivity, ops, and assigned coding work. Treat Silva-related repos/projects as private. For automation breakdowns, Pedro expects the exact stated event sequence/use case restated and mapped concretely before generalizing. Slack top-level with Lua is the continuous main conversation; threads are focused isolated subtopics and need explicit handoff summaries when main-channel context matters.
+Pedro Veloso: English; Portugal (Porto/V.N. Famalicão), Europe/Lisbon. Tech Consultant building AI agents, websites/web apps, deployments, and systems. Lua supports personal productivity, ops, and coding work. Silva-related repos/projects are private. For automation breakdowns, restate the exact event sequence/use case and map it concretely before generalizing. Slack top-level with Lua is the continuous main conversation; threads are isolated subtopics needing explicit handoff summaries when main-channel context matters.
 §
 Pedro prefers Lua branding in WhatsApp message headers/prefixes rather than default “Hermes Agent” branding.
 §
@@ -19,3 +19,5 @@ Pedro expects serious SaaS/product planning to include broad industry deep-dive 
 Pedro requires repo-facing coding/docs work to use interactive remote-control lanes only: Claude Code for planning/review and Codex for implementation; `claude -p`, `claude-code -p`, `codex exec`, and generic delegated reviews are non-compliant unless explicitly authorized.
 §
 Pedro expects PR caveats or nice-to-haves that Lua explicitly mentions to be actionable follow-up work when he asks; treat that as approval to address the caveat inside the current PR scope, then rerun validation, independent review, and CI before reporting ready.
+§
+Pedro has a friend named Nunes; Pedro wants to encourage him with playful, non-preachy ambition/discipline framing rather than lecturing or generic grindset talk.
