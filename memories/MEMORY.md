@@ -22,4 +22,4 @@ Lead-gen AdOps OS planning gate: proceed strictly one artifact at a time in this
 §
 Claude Code auth works under `HOME=/opt/data/home`; use `/opt/data/home/.local/node_modules/@anthropic-ai/claude-code/bin/claude.exe` directly or recreate `/opt/data/home/.local/bin/claude` wrapper if missing, because the wrapper can disappear during Claude auto-update attempts.
 §
-B02 GBP growth venture: hybrid manual service first, tooling later; initial beachheads are Phoenix HVAC and Dallas/Fort Worth plumbers. Pedro wants a standalone abstract brand, short name containing “North” and ending in “Labs.”
+B02 GBP growth venture: hybrid manual service first, tooling later; initial beachheads are Phoenix HVAC and Dallas/Fort Worth plumbers. Pedro wants a standalone abstract/premium brand; he is exploring short “[Name] Strategies” names with a Halcyon-like elegant feel.
