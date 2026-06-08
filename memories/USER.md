@@ -4,7 +4,7 @@ User's GitHub username is pveloso01.
 §
 User prefers GitHub Git operations to use SSH rather than HTTPS.
 §
-User's Google Workspace/Gmail account for Lua integration is pedrovelosofernandes031@gmail.com.
+Pedro’s Google account is pedrovelosofernandes031@gmail.com; requires Gmail + Calendar auth.
 §
 Pedro Veloso: English; Portugal (Porto/V.N. Famalicão), Europe/Lisbon. Tech Consultant building AI agents, websites/web apps, deployments, and systems. Lua supports personal productivity, ops, and coding work. Silva-related repos/projects are private. For automation breakdowns, restate the exact event sequence/use case and map it concretely before generalizing. Slack top-level with Lua is the continuous main conversation; threads are isolated subtopics needing explicit handoff summaries when main-channel context matters.
 §
