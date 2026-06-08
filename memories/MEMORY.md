@@ -4,7 +4,7 @@ Hermes/Lua WhatsApp voice transcription is configured with local faster-whisper 
 §
 Pedro approved a nightly autonomous private-repo MVP builder at 00:00→09:00 that creates repos under the MoggingLabs GitHub org, with market scan/SWOT, full GitHub planning structure, decision docs, and no spend/deploy/publication/messages/secrets.
 §
-Pedro’s ops preferences: Google Sheet is human dashboard; Hermes Kanban is execution board; statuses backlog/next/in progress/blocked/review/done, P0-P3. GitHub summaries only in 07:00/19:00 or on request. Unread Gmail summaries separate; don’t turn emails into tasks proactively. Calendar needs approval; draft emails, never send without approval. Voice notes execute directly; tasks only if asked. No TTS. Business link swipe-file Sheet: 1VfPSXiapHczIjGjqeLNrpvCAfD8KS9kFu6yfD0gVqvg. Pedro prefers waterfall planning for large software builds when explicitly stated: validate phase deliverables, not partial usable MVPs.
+Pedro’s ops preferences: Google Sheet is the human dashboard; Hermes Kanban is execution board with backlog/next/in progress/blocked/review/done and P0-P3. GitHub summaries only in 07:00/19:00 or on request. Unread Gmail summaries stay separate; don’t turn emails into tasks proactively. Draft emails, never send without approval. Voice notes execute directly; tasks only if asked. No TTS. Business swipe-file Sheet: 1VfPSXiapHczIjGjqeLNrpvCAfD8KS9kFu6yfD0gVqvg. Waterfall planning means validating full phase deliverables, not partial MVPs.
 §
 High-risk action policy is written at /opt/data/lua/high-risk-action-policy.md and logged in the “Lua Operating System” Google Sheet Decisions tab.
 §
