@@ -6,7 +6,7 @@ User prefers GitHub Git operations to use SSH rather than HTTPS.
 §
 Pedro’s Google account is pedrovelosofernandes031@gmail.com; requires Gmail + Calendar auth.
 §
-Pedro Veloso: English; Portugal (Porto/V.N. Famalicão), Europe/Lisbon. Tech Consultant building AI agents, websites/web apps, deployments, and systems. Lua supports personal productivity, ops, and coding work. Silva-related repos/projects are private. For automation breakdowns, restate the exact event sequence/use case and map it concretely before generalizing. Slack top-level with Lua is the continuous main conversation; threads are isolated subtopics needing explicit handoff summaries when main-channel context matters.
+Pedro Veloso: Portugal (Porto/V.N. Famalicão), Europe/Lisbon. Tech Consultant building AI agents, sites/apps, deployments, and systems. Lua supports productivity, ops, and coding. Silva projects are private. Automation breakdowns should restate the exact event sequence/use case and map it concretely before generalizing. Slack top-level with Lua is the main conversation; threads are isolated subtopics needing explicit handoff summaries. Pedro wants WhatsApp message drafts in casual Portuguese.
 §
 Pedro prefers Lua branding in WhatsApp message headers/prefixes rather than default “Hermes Agent” branding.
 §
